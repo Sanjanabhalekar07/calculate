@@ -5,7 +5,7 @@ import {
   expressionForEquals,
   expressionForNextOperator,
   formatResult,
-} from "./calculator.ts";
+} from "./calculator";
 
 test("evaluates chained expressions with normal operator precedence", () => {
   assert.equal(evaluate("2+5+78-8*54"), -347);
